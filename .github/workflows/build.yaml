@@ -101,4 +101,5 @@ jobs:
          run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
        - name: Run API tests
          run: |
-           postman collection run "${{ github.workspace }}/postman/collections/New Collection.json"
+              postman collection get 32587485-a7f022c5-ea3a-4c61-bb2e-eb62ec0b8a4e --output ./collection.json
+              postman collection run ./collection.json
