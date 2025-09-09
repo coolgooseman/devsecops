@@ -45,7 +45,7 @@ jobs:
         uses: docker/scout-action@v1.5.0
         with:
           command: cves
-          image: hhmbroekman/henks-nginx:latest
+          image: coolgooseman/devsecops:latest
           # only-fixed: true
           only-severities: critical,high
           ignore-base: false
