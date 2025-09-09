@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "ce036bfa-af74-4eef-bf42-78a98753eb1a",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32587485",
+		"_collection_link": "https://devsecops-5961.postman.co/workspace/devsecops~94fd3573-6af0-4d96-8939-96ab39fb4c9c/collection/32587485-ce036bfa-af74-4eef-bf42-78a98753eb1a?action=share&source=collection_link&creator=32587485"
+	},
+	"item": [
+		{
+			"name": "test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://44.192.111.70:30000",
+					"protocol": "http",
+					"host": [
+						"44",
+						"192",
+						"111",
+						"70"
+					],
+					"port": "30000"
+				}
+			},
+			"response": []
+		}
+	]
+}
