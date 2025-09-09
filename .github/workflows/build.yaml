@@ -39,6 +39,9 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_LOGIN }}
           password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+      - name: Pull latest Docker image
+        run: |
+         docker pull coolgooseman/devsecops:latest
 
       - name: Docker Scout CVEs
         uses: docker/scout-action@v1.5.0
