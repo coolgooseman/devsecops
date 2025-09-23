@@ -1,10 +1,9 @@
 {
 	"info": {
-		"_postman_id": "ce036bfa-af74-4eef-bf42-78a98753eb1a",
+		"_postman_id": "a836df7c-a24b-4cc7-91c3-14ff8c2d81cf",
 		"name": "New Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "32587485",
-		"_collection_link": "https://devsecops-5961.postman.co/workspace/devsecops~94fd3573-6af0-4d96-8939-96ab39fb4c9c/collection/32587485-ce036bfa-af74-4eef-bf42-78a98753eb1a?action=share&source=collection_link&creator=32587485"
+		"_uid": "32587485-a836df7c-a24b-4cc7-91c3-14ff8c2d81cf"
 	},
 	"item": [
 		{
@@ -13,6 +12,7 @@
 				{
 					"listen": "test",
 					"script": {
+						"id": "b83faa18-3a0a-4b12-9928-2208ce4a45ee",
 						"exec": [
 							"// Check HTTP status 200\r",
 							"pm.test(\"Status code is 200\", function () {\r",
@@ -37,6 +37,10 @@
 					}
 				}
 			],
+			"id": "1c405059-7421-42db-91c4-3b674d5b15b7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -44,10 +48,10 @@
 					"raw": "http://18.215.125.201:30000",
 					"protocol": "http",
 					"host": [
-						"44",
-						"192",
-						"111",
-						"70"
+						"18",
+						"215",
+						"125",
+						"201"
 					],
 					"port": "30000"
 				}
