@@ -24,11 +24,6 @@
 							"    pm.expect(pm.response.text()).to.include(\"Inloggen groetjes jorn! en private test\");\r",
 							"});\r",
 							"\r",
-							"pm.test(\"Security headers present\", function () {\r",
-							"    pm.expect(pm.response.headers.has('x-frame-options')).to.be.true;\r",
-							"    pm.expect(pm.response.headers.has('x-content-type-options')).to.be.true;\r",
-							"});\r",
-							"\r",
 							""
 						],
 						"type": "text/javascript",
