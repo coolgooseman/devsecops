@@ -34,7 +34,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://44.192.111.70:30000",
+					"raw": "http://18.215.125.201:30000",
 					"protocol": "http",
 					"host": [
 						"44",
